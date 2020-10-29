@@ -16,6 +16,7 @@ public class Main
 
         Point pointD = findPointD(pointA, pointB, pointC);
 
+        System.out.printf("Координаты точки D:")
         System.out.printf("x = %1$.0f and y = %2$.0f", pointD.x, pointD.y);
     }
 
